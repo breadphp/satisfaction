@@ -1,0 +1,25 @@
+{
+	"name" : "bread/satisfaction",
+	"description" : "Bread customer satisfaction",
+	"type" : "library",
+	"authors" : [{
+			"name" : "Alex Tomasello",
+			"email" : "alex.tomasello@saiv.it"
+		}
+	],
+	"keywords" : [
+		"bread",
+		"customer satisfaction"
+	],
+	"homepage" : "https://github.com/breadphp/satisfaction",
+	"license" : "CC-BY-3.0",
+	"require" : {
+		"php" : ">=5.5",
+		"bread/rest" : "~0.6"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Bread\\Satisfaction\\" : "src"
+		}
+	}
+}
